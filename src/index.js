@@ -56,6 +56,12 @@ class Board extends React.Component {
                     <p>{this.state.valeur}</p>
                 </div>
                 <div className='border-row'>
+                    {this.renderButton('(')}
+                    {this.renderButton(')')}
+                    {this.renderButton('%')}
+                    {this.renderButton('AC')}
+                </div>
+                <div className='border-row'>
                     {this.renderButton('7')}
                     {this.renderButton('8')}
                     {this.renderButton('9')}
@@ -80,7 +86,6 @@ class Board extends React.Component {
                     {this.renderButton('+')}
                 </div>
                 <div className='border-row'>
-                    {this.renderButton('AC')}
                     {this.renderButton('<')}
                 </div>
             </div>
