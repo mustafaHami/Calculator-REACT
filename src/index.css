@@ -1,0 +1,39 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.container
+{
+    width: 100%;
+    border: 2px solid grey;
+    padding: 5px;
+}
+.btn
+{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+.resultat 
+{ 
+    position: relative;
+    background-color: rgb(193, 193, 193);
+    height: 60px;
+    margin: 3px;
+}
+.resultat p {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
